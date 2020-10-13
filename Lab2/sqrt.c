@@ -16,10 +16,10 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 	if(input >=0 )
-	printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
+	printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
 	else
-	printf("NEGSUPPORT: Sqrt of %d is %fi\n",input,sqrt(-input));
-	printf("NEGSUPPORT: End of program. Let's go.\n");
+	printf("DEBUG: Sqrt of %d is %fi\n",input,sqrt(-input));
+	printf("DEBUG: End of program. Let's go.\n");
 	return(0);
 
 } // end main
